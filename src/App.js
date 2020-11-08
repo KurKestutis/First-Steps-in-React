@@ -19,10 +19,10 @@ class App extends Component{
   render(){ 
     return (
       <div className="App">
-      <Greet name='Jonas'/>
-      <Greet name='Antanas'/>
-      <Greet name='Aloyzas'/>
-      <Greet name='Martynas'/>
+      <Greet name='Jonas' heroName='Iroman'/>
+      <Greet name='Antanas' heroName='Captain Victory'/>
+      <Greet name='Aloyzas' heroName='Zorro'/>
+      <Greet name='Martynas' heroName='Superman'/>
       {/* <Welcome/> */}
       {/* <Hello /> */}
     </div>
