@@ -19,9 +19,12 @@ class App extends Component{
   render(){ 
     return (
       <div className="App">
-      <Greet/>
-      <Welcome/>
-      <Hello />
+      <Greet name='Jonas'/>
+      <Greet name='Antanas'/>
+      <Greet name='Aloyzas'/>
+      <Greet name='Martynas'/>
+      {/* <Welcome/> */}
+      {/* <Hello /> */}
     </div>
    );
   }
