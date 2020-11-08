@@ -19,7 +19,8 @@ class App extends Component{
   render(){ 
     return (
       <div className="App">
-      <Greet name='Jonas' heroName='Iroman'/>
+      <Greet name='Jonas' heroName='Iroman'>
+      <p>This is children props</p></Greet>
       <Greet name='Antanas' heroName='Captain Victory'/>
       <Greet name='Aloyzas' heroName='Zorro'/>
       <Greet name='Martynas' heroName='Superman'/>
