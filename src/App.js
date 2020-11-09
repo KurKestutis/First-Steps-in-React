@@ -6,23 +6,12 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
 
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Greet/>
-//       <Welcome/>
-//       <Hello />
-//     </div>
-//   );  
-// }
-
 class App extends Component{
   render(){ 
     return (
       <div className="App">
       <Message/>
-      
+                  
     </div>
    );
   }

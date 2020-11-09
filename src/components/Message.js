@@ -1,8 +1,27 @@
 import React, {Component} from 'react'
 
 class Message extends Component {
+
+    constructor(){
+        super()
+        this.state ={
+            message: "Welcome visitor"
+        }
+    }
+
+    changeMessage(){
+        this.setState({
+            message: "You are successfully subscribed"
+        })
+    }
+
       render(){
-          return <h2>Welcome visitor</h2>
+          return ( 
+              <div>
+                  <h2>{this.state.message}</h2>
+                  <button onClick={() => this.changeMessage()}>Subscribe</button>
+              </div>
+          )
       }
 }
 
