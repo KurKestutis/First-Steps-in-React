@@ -14,7 +14,7 @@ class App extends Component{
       <div className="App">
         <Counter/>
       {/* <Message/> */}
-      <Stylesheet primary={false}/>
+      <Stylesheet primary={true}/>
                   
     </div>
    );
