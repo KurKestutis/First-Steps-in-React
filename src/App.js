@@ -4,6 +4,8 @@ import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
+import Message from './components/Message'
+
 
 // function App() {
 //   return (
@@ -19,16 +21,8 @@ class App extends Component{
   render(){ 
     return (
       <div className="App">
-      <Greet name='Jonas' heroName='Iroman'>
-      <p>This is children props</p></Greet>
-      <Greet name='Antanas' heroName='Captain Victory'/>
-      <Greet name='Aloyzas' heroName='Zorro'/>
-      <Greet name='Martynas' heroName='Superman'/>
-     
-      <Welcome name='Jonas' heroName='Iroman'/>
-      <Welcome name='Aloyzas' heroName='Zorro'/>
-      <Welcome name='Martynas' heroName='Superman'/>
-      {/* <Hello /> */}
+      <Message/>
+      
     </div>
    );
   }
