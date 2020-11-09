@@ -6,6 +6,7 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter';
+import Stylesheet from './components/Stylesheet';
 
 class App extends Component{
   render(){ 
@@ -13,6 +14,7 @@ class App extends Component{
       <div className="App">
         <Counter/>
       {/* <Message/> */}
+      <Stylesheet primary={false}/>
                   
     </div>
    );
