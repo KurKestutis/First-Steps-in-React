@@ -24,7 +24,10 @@ class App extends Component{
       <Greet name='Antanas' heroName='Captain Victory'/>
       <Greet name='Aloyzas' heroName='Zorro'/>
       <Greet name='Martynas' heroName='Superman'/>
-      {/* <Welcome/> */}
+     
+      <Welcome name='Jonas' heroName='Iroman'/>
+      <Welcome name='Aloyzas' heroName='Zorro'/>
+      <Welcome name='Martynas' heroName='Superman'/>
       {/* <Hello /> */}
     </div>
    );
