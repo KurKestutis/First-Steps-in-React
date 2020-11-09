@@ -4,28 +4,18 @@ import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Greet/>
-//       <Welcome/>
-//       <Hello />
-//     </div>
-//   );  
-// }
+import Message from './components/Message'
+import Counter from './components/Counter';
+import Stylesheet from './components/Stylesheet';
 
 class App extends Component{
   render(){ 
     return (
       <div className="App">
-      <Greet name='Jonas' heroName='Iroman'>
-      <p>This is children props</p></Greet>
-      <Greet name='Antanas' heroName='Captain Victory'/>
-      <Greet name='Aloyzas' heroName='Zorro'/>
-      <Greet name='Martynas' heroName='Superman'/>
-      {/* <Welcome/> */}
-      {/* <Hello /> */}
+        <Counter/>
+      {/* <Message/> */}
+      <Stylesheet primary={true}/>
+                  
     </div>
    );
   }
