@@ -16,14 +16,16 @@ class App extends Component{
     return (
       <div className="App">
                 
-      <Message/>
+      {/* <Message/>
       <Counter/>
       <Stylesheet primary={true}/>
 
       <Inline/> 
       
       <h2 className='error'>Error</h2>
-      <h2 className={styles.success}>Success</h2>
+      <h2 className={styles.success}>Success</h2> */}
+      
+      <Greet name='Diana' heroName='Superwoman'/>
 
     </div>
    );
