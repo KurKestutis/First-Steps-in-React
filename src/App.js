@@ -24,8 +24,9 @@ class App extends Component{
       
       <h2 className='error'>Error</h2>
       <h2 className={styles.success}>Success</h2> */}
-      
+
       <Greet name='Diana' heroName='Superwoman'/>
+      <Welcome name='Jonas' heroName='Iroman'/>
 
     </div>
    );
