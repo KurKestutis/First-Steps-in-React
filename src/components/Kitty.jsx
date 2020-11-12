@@ -3,7 +3,9 @@ import React from 'react'
 function Kitty(props){
 
     return (
-        <div className="Comment">
+        <div> <h1>Labasss Kitty</h1>
+        {/* <div className="Comment">
+       
             <div className="UserInfo">
                 <img
                     className="Avatar"
@@ -18,7 +20,10 @@ function Kitty(props){
             <div className="Comment-text">
                         {FormData(props.date)}
             </div>
+        </div> */}
         </div>
+
+        
         
     )
 }
