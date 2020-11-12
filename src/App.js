@@ -10,22 +10,27 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import './appStyle.css'
 import styles from './appStyles.module.css'
+import Labas from './components/Labas'
 
 class App extends Component{
   render(){ 
     return (
       <div className="App">
-                
-      {/* <Message/>
+
+      <Message/>
+      <Labas name='Saras'/>
+      
+      <Greet name='Diana' heroName='Superwoman'/>
+     
+
       <Counter/>
       <Stylesheet primary={true}/>
 
       <Inline/> 
       
       <h2 className='error'>Error</h2>
-      <h2 className={styles.success}>Success</h2> */}
-
-      <Greet name='Diana' heroName='Superwoman'/>
+      <h2 className={styles.success}>Success</h2>
+      
       <Welcome name='Jonas' heroName='Iroman'/>
 
     </div>
