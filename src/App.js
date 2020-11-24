@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {NameExport} from "./mistakes/NamedExport"
 import {Counter} from "./mistakes/Counter2"
+import {Name} from "./mistakes/Name"
 
 
 import "./App.css";
@@ -15,6 +16,7 @@ class App extends Component {
         <NameExport/>
         <br/>
         <Counter/>
+        <Name/>
       </div>
     );
   }
