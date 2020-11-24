@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {NameExport} from "./mistakes/NamedExport"
 
 import "./App.css";
 
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <Labas name="Kestuti" />
+        <NameExport/>
       </div>
     );
   }
