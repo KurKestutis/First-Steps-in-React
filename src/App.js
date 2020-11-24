@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import {NameExport} from "./mistakes/NamedExport"
+import {Counter} from "./mistakes/Counter2"
+
 
 import "./App.css";
 
@@ -11,6 +13,8 @@ class App extends Component {
       <div className="App">
         <Labas name="Kestuti" />
         <NameExport/>
+        <br/>
+        <Counter/>
       </div>
     );
   }
