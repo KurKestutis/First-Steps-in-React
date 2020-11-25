@@ -3,7 +3,8 @@ import { NameExport } from "./mistakes/NamedExport";
 import { Counter } from "./mistakes/Counter2";
 import { Name } from "./mistakes/Name";
 import { AsyncSetState } from "./mistakes/AsyncSetState";
-import { ToDoList } from "./mistakes/ToDoList";
+// import { ToDoList } from "./mistakes/ToDoList";
+import { Parent } from "./mistakes/ParentChild";
 
 import "./App.css";
 
@@ -23,7 +24,10 @@ class App extends Component {
         <AsyncSetState />
         <br />
         <hr />
-        <ToDoList />
+        {/* <ToDoList /> */}
+        <br />
+        <hr />
+        <Parent />
       </div>
     );
   }
