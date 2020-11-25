@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {NameExport} from "./mistakes/NamedExport"
 import {Counter} from "./mistakes/Counter2"
 import {Name} from "./mistakes/Name"
+import {AsyncSetState} from "./mistakes/AsyncSetState"
 
 
 import "./App.css";
@@ -17,6 +18,9 @@ class App extends Component {
         <br/>
         <Counter/>
         <Name/>
+        <br/>
+        <hr/>
+        <AsyncSetState/>
       </div>
     );
   }
