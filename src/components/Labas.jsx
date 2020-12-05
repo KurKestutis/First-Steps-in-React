@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function Labas(props){
-    return <h1>Labasss, {props.name}</h1>
+function Labas(props) {
+  return <h1>Labas {props.name},</h1>;
 }
 
-export default Labas
+export default Labas;
